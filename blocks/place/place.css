@@ -1,0 +1,9 @@
+.place {
+  width: calc(100% - 32px);
+  margin: 0 auto;
+  padding-top: 50px;
+  font-family: "Inter", Arial, sans-serif;
+  background-color: #2a2c2f;
+  color: #fff;
+  display: grid;
+}

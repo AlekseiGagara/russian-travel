@@ -1,0 +1,6 @@
+.place__image {
+  width: calc(100% + 32px);
+    height: 100%;
+    object-fit: cover;
+    transform: translateX(-16px);
+}
