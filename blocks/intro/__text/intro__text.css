@@ -3,3 +3,9 @@
   font-size: 16px;
   line-height: 163%;
 }
+
+@media (min-width: 950px) {
+  .intro__text {
+    max-width: 690px;
+  }
+}

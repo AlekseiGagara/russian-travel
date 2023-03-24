@@ -4,3 +4,16 @@
   background-color: #2a2c2f;
   color: #fff;
 }
+
+@media (min-width:750px) {
+  .cover {
+    padding-top: 90px;
+  }
+}
+
+@media (min-width:950px) {
+  .cover {
+    padding-top: 92px;
+  }
+}
+

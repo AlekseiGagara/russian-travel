@@ -1,6 +1,12 @@
 .intro__list {
   margin: 0;
   font-size: 12px;
-  line-height: 18px;
+  line-height: 1.5;
   white-space: pre-line;
+}
+
+@media (min-width: 950px) {
+  .intro__list {
+    max-width: 690px;
+  }
 }

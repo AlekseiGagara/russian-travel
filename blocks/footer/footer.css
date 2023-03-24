@@ -1,10 +1,28 @@
 .footer {
-  padding: 64px 118px 24px 16px;
-  min-height: 310px;
+  margin: 0 auto;
+  width: calc(100% - 32px);
+  padding: 64px 0 16px;
   font-family: "Inter", Arial, sans-serif;
   background-color: #2a2c2f;
   color: #fff;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  align-items: flex-start;
+  gap: 48px;
+}
+
+@media (min-width: 750px) {
+  .footer {
+    width: calc(100% - 48px);
+    padding: 88px 0 24px;
+    flex-direction: row;
+  }
+}
+
+@media (min-width: 950px) {
+  .footer {
+    width: calc(100% - 96px);
+    padding: 92px 0 24px;
+  }
 }

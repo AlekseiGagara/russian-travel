@@ -6,4 +6,48 @@
   background-color: #2a2c2f;
   color: #fff;
   display: grid;
+  grid-template-areas:
+  "title"
+  "website"
+  "image"
+  "description";
+  gap: 32px;
+}
+
+@media (min-width: 600px) {
+  .place {
+  grid-template-columns: 240px 1fr;
+  grid-template-areas:
+  "title website"
+  "image description";
+  }
+}
+
+@media (min-width: 750px) {
+  .place {
+  width: calc(100% - 48px);
+  padding-top: 73px;
+  grid-template-columns: 340px 1fr;
+  grid-template-areas:
+  "title website"
+  "image description";
+  gap: 48px 28px;
+  }
+}
+
+@media (min-width: 950px) {
+  .place {
+  width: calc(100% - 96px);
+  padding-top: 80px;
+  grid-template-columns: 440px 1fr;
+  gap: 48px 32px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .place {
+  width: calc(100% - 296px);
+  grid-template-columns: 460px 1fr;
+  gap: 48px 40px;
+  }
 }

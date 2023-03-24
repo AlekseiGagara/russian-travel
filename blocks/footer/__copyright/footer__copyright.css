@@ -3,3 +3,10 @@
   font-size: 14px;
   line-height: 1;
 }
+
+@media (min-width: 750px) {
+  .footer__copyright {
+    font-size: 14px;
+    line-height: 1.14;
+  }
+}

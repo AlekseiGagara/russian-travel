@@ -1,0 +1,11 @@
+.place__description {
+  grid-area: description;
+  gap: 25px;
+  display: grid;
+  grid-template-rows: min-content;
+}
+
+@media (min-width: 950px) {
+  .place__description {
+    gap: 26px;
+}

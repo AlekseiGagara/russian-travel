@@ -8,3 +8,23 @@
   background-color: #2a2c2f;
   color: #fff;
 }
+
+@media (min-width: 740px) {
+  .intro {
+    width: calc(100% - 48px);
+    padding-top: 88px;
+  }
+}
+
+@media (min-width: 950px) {
+  .intro {
+    width: calc(100% - 96px);
+    padding-top: 92px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .intro {
+    width: calc(100% - 296px);
+  }
+}

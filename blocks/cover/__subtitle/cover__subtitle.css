@@ -3,5 +3,22 @@
   font-size: 14px;
   line-height: 114%;
   text-align: center;
-  white-space: pre-line;
+  display: block;
+  max-width: 260px;
+}
+
+@media (min-width:500px) {
+  cover__subtitle {
+    font-size: 16px;
+    line-height: 106%;
+    max-width: 310px;
+  }
+}
+
+@media (min-width:750px) {
+  .cover__subtitle {
+    font-size: 18px;
+    line-height: 122%;
+    max-width: 360px;
+  }
 }
