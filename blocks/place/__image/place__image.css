@@ -1,13 +1,11 @@
 .place__image {
-  width: calc(100% + 32px);
+  width: 100%;
   object-fit: cover;
-  transform: translateX(-16px);
   grid-area: image;
 }
 
 @media (min-width:600px) {
   .place__image {
   width: 100%;
-  transform: none;
   }
 }

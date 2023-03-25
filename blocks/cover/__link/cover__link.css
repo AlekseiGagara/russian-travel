@@ -6,7 +6,7 @@
   align-content: center;
   text-decoration: none;
   background-image: url(../../../images/cover-trains.jpg);
-  background-size: 100% 100%;
+  background-size: cover;
   color: inherit;
   position: relative;
   z-index: 1;

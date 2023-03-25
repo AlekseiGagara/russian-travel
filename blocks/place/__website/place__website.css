@@ -1,6 +1,13 @@
 .place__website {
+  margin: 0 16px;
   grid-area: website;
   display: grid;
   gap: 12px;
   align-self: end;
+}
+
+@media (min-width: 600px) {
+  .place__website {
+    margin: 0;
+}
 }
